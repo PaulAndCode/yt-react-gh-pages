@@ -7,7 +7,7 @@ import {Link, Switch, Route} from 'react-router-dom';
 function App() {
   return (
     <>
-      <nav>
+      <nav className="App-header">
         <ul>
           <li>
             <Link  to="/">Home</Link>
